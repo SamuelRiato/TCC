@@ -4,6 +4,7 @@ object frmlogin: Tfrmlogin
   Caption = 'frmlogin'
   ClientHeight = 640
   ClientWidth = 360
+  Fill.Kind = Solid
   Padding.Left = 10.000000000000000000
   Padding.Top = 10.000000000000000000
   Padding.Right = 10.000000000000000000
@@ -1815,18 +1816,11 @@ object frmlogin: Tfrmlogin
         Text = 'N'#227'o tem conta?'
         TabOrder = 0
       end
-      object lblcadaluno: TLabel
-        StyledSettings = [Family, Style]
-        Position.X = 96.000000000000000000
-        Position.Y = 25.000000000000000000
-        Size.Width = 64.000000000000000000
-        Size.Height = 17.000000000000000000
-        Size.PlatformDefault = False
-        TextSettings.Font.Size = 11.000000000000000000
-        TextSettings.FontColor = claOlivedrab
-        Text = 'Cadastre-se'
-        TabOrder = 1
-        OnClick = lblcadalunoClick
+      object SpeedButton1: TSpeedButton
+        Position.X = 80.000000000000000000
+        Position.Y = 8.000000000000000000
+        Text = 'SpeedButton1'
+        OnClick = SpeedButton1Click
       end
     end
   end

@@ -280,15 +280,12 @@
         </DelphiCompile>
         <DCCReference Include="TelaInicial.pas">
             <Form>FrmInicial</Form>
-            <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="TelaCadAluno.pas">
             <Form>FrmCadAluno</Form>
-            <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="TelaLogin.pas">
             <Form>frmlogin</Form>
-            <FormType>fmx</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

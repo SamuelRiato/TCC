@@ -15,7 +15,8 @@ type
     Image1: TImage;
     Label2: TLabel;
     Layout3: TLayout;
-    RoundRect1: TRoundRect;
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
     procedure Label1Click(Sender: TObject);
   private
     { Private declarations }
@@ -34,7 +35,7 @@ uses TelaCadAluno;
 
 procedure TFrmInicial.Label1Click(Sender: TObject);
 begin
- label1.text:=('Olá'+ frmcadaluno.EdtNomeAluno.text);
+ label1.text:=('Olá'+ frmcadaluno.edtnomealuno.text);
 end;
 
 end.

@@ -26,8 +26,9 @@ type
     btnentrar: TSpeedButton;
     Layout6: TLayout;
     Label6: TLabel;
-    lblcadaluno: TLabel;
+    SpeedButton1: TSpeedButton;
     procedure lblcadalunoClick(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -46,6 +47,11 @@ uses TelaCadAluno;
 procedure Tfrmlogin.lblcadalunoClick(Sender: TObject);
 begin
   FrmCadAluno.Show;
+end;
+
+procedure Tfrmlogin.SpeedButton1Click(Sender: TObject);
+begin
+ FrmCadAluno.show;
 end;
 
 end.

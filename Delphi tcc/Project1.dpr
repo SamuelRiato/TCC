@@ -11,8 +11,8 @@ uses
 
 begin
   Application.Initialize;
+  Application.CreateForm(Tfrmlogin, frmlogin);
   Application.CreateForm(TFrmInicial, FrmInicial);
   Application.CreateForm(TFrmCadAluno, FrmCadAluno);
-  Application.CreateForm(Tfrmlogin, frmlogin);
   Application.Run;
 end.

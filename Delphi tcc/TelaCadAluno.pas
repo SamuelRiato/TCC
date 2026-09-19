@@ -23,6 +23,12 @@ type
     Layout5: TLayout;
     RoundRect1: TRoundRect;
     btncadastrar: TSpeedButton;
+    Label5: TLabel;
+    Edit1: TEdit;
+    edttelefone: TEdit;
+    Label6: TLabel;
+    edtnomealuno: TEdit;
+    Label7: TLabel;
   private
     { Private declarations }
   public
@@ -35,5 +41,6 @@ var
 implementation
 
 {$R *.fmx}
+
 
 end.
