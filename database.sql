@@ -34,6 +34,7 @@ CREATE TABLE agendaaulas(
     datahorafim TEXT NOT NULL,
     vagastotais INTEGER NOT NULL CHECK (vagastotais > 0),
     vagasdisponiveis INTEGER NOT NULL CHECK (vagasdisponiveis >= 0 AND vagasdisponiveis <= vagastotais)
+    FOREIGN KEY (idalunoaula) REFERENCES alunos(idaluno)
 );
 
 CREATE TABLE fichatreino(
@@ -145,7 +146,7 @@ WHEN NEW.statuspagamento = 'Pendente' AND NEW.datavencimento <= DATE('now', '+3 
 BEGIN
     INSERT INTO avisos (idaluno, tipoaviso, mensagem)
     VALUES (
-        NEW.id_aluno,
+        NEW.idaluno,
         'Mensalidade próxima do vencimento',
         'Sua fatura no valor de R$ ' || NEW.valor || ' vence em ' || STRFTIME('%d/%m/%Y', NEW.datavencimento)
     );
