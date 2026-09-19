@@ -4,7 +4,8 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   TelaInicial in 'TelaInicial.pas' {FrmInicial},
-  TelaCadAluno in 'TelaCadAluno.pas' {FrmCadAluno};
+  TelaCadAluno in 'TelaCadAluno.pas' {FrmCadAluno},
+  TelaLogin in 'TelaLogin.pas' {frmlogin};
 
 {$R *.res}
 
@@ -12,5 +13,6 @@ begin
   Application.Initialize;
   Application.CreateForm(TFrmInicial, FrmInicial);
   Application.CreateForm(TFrmCadAluno, FrmCadAluno);
+  Application.CreateForm(Tfrmlogin, frmlogin);
   Application.Run;
 end.

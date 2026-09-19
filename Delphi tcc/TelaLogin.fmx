@@ -1,7 +1,7 @@
-object FrmCadAluno: TFrmCadAluno
+object frmlogin: Tfrmlogin
   Left = 0
   Top = 0
-  Caption = 'FrmCadAluno'
+  Caption = 'frmlogin'
   ClientHeight = 640
   ClientWidth = 360
   Padding.Left = 10.000000000000000000
@@ -1680,24 +1680,24 @@ object FrmCadAluno: TFrmCadAluno
         StyledSettings = [Family, FontColor]
         Position.X = 8.000000000000000000
         Position.Y = 8.000000000000000000
-        Size.Width = 81.000000000000000000
+        Size.Width = 57.000000000000000000
         Size.Height = 25.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Size = 20.000000000000000000
         TextSettings.Font.StyleExt = {00090000000000000004000000}
-        Text = 'Cadastro'
+        Text = 'Login'
         TabOrder = 0
       end
       object Label2: TLabel
         StyledSettings = [Family, FontColor]
         Position.X = 8.000000000000000000
         Position.Y = 41.000000000000000000
-        Size.Width = 217.000000000000000000
+        Size.Width = 241.000000000000000000
         Size.Height = 17.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Size = 10.000000000000000000
         TextSettings.Font.StyleExt = {00070000000000000004000000}
-        Text = 'Crie sua conta para come'#231'ar sua jornada fitness'
+        Text = 'Seja bem-vindo(a) de volta! Fa'#231'a login para treinar'
         TabOrder = 1
       end
     end
@@ -1705,13 +1705,13 @@ object FrmCadAluno: TFrmCadAluno
       Align = Top
       Position.Y = 209.000000000000000000
       Size.Width = 340.000000000000000000
-      Size.Height = 344.000000000000000000
+      Size.Height = 176.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
       object Label3: TLabel
         StyledSettings = [Family, FontColor]
         Position.X = 8.000000000000000000
-        Position.Y = 160.000000000000000000
+        Position.Y = 16.000000000000000000
         Size.Width = 49.000000000000000000
         Size.Height = 23.000000000000000000
         Size.PlatformDefault = False
@@ -1726,7 +1726,7 @@ object FrmCadAluno: TFrmCadAluno
         Text = #55357#56551' seu-email@dominio.com'
         TextSettings.Font.Size = 14.000000000000000000
         Position.X = 8.000000000000000000
-        Position.Y = 184.000000000000000000
+        Position.Y = 40.000000000000000000
         Size.Width = 281.000000000000000000
         Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
@@ -1735,7 +1735,7 @@ object FrmCadAluno: TFrmCadAluno
       object Label4: TLabel
         StyledSettings = [Family, FontColor]
         Position.X = 8.000000000000000000
-        Position.Y = 222.000000000000000000
+        Position.Y = 78.000000000000000000
         Size.Width = 49.000000000000000000
         Size.Height = 23.000000000000000000
         Size.PlatformDefault = False
@@ -1750,16 +1750,28 @@ object FrmCadAluno: TFrmCadAluno
         Text = #8226#8226#8226#8226#8226#8226#8226#8226
         TextSettings.Font.Size = 14.000000000000000000
         Position.X = 8.000000000000000000
-        Position.Y = 245.000000000000000000
+        Position.Y = 99.000000000000000000
         Size.Width = 281.000000000000000000
         Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
         StyledSettings = [Family, Style, FontColor]
       end
+      object Label5: TLabel
+        StyledSettings = [Family, Style]
+        Position.X = 8.000000000000000000
+        Position.Y = 131.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = claOlivedrab
+        Text = 'Esqueceu a senha?'
+        TabOrder = 4
+      end
     end
     object Layout5: TLayout
       Align = Top
-      Position.Y = 553.000000000000000000
+      Position.Y = 385.000000000000000000
       Size.Width = 340.000000000000000000
       Size.Height = 72.000000000000000000
       Size.PlatformDefault = False
@@ -1772,17 +1784,49 @@ object FrmCadAluno: TFrmCadAluno
         Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
         Stroke.Kind = None
-        object btncadastrar: TSpeedButton
+        object btnentrar: TSpeedButton
           Align = Client
           StyledSettings = [Family]
           Size.Width = 249.000000000000000000
           Size.Height = 48.000000000000000000
           Size.PlatformDefault = False
-          Text = 'Cadastrar'
+          Text = 'Entrar ->'
           TextSettings.Font.Size = 16.000000000000000000
           TextSettings.Font.StyleExt = {00070000000000000004000000}
           TextSettings.FontColor = claWhite
         end
+      end
+    end
+    object Layout6: TLayout
+      Align = Top
+      Position.Y = 457.000000000000000000
+      Size.Width = 340.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object Label6: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 25.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        Text = 'N'#227'o tem conta?'
+        TabOrder = 0
+      end
+      object lblcadaluno: TLabel
+        StyledSettings = [Family, Style]
+        Position.X = 96.000000000000000000
+        Position.Y = 25.000000000000000000
+        Size.Width = 64.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = claOlivedrab
+        Text = 'Cadastre-se'
+        TabOrder = 1
+        OnClick = lblcadalunoClick
       end
     end
   end

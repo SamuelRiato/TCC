@@ -1,14 +1,14 @@
-unit TelaCadAluno;
+unit TelaLogin;
 
 interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.Edit, FMX.Layouts, FMX.Objects, FMX.StdCtrls;
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Layouts, FMX.Edit;
 
 type
-  TFrmCadAluno = class(TForm)
+  Tfrmlogin = class(TForm)
     Layout1: TLayout;
     Layout2: TLayout;
     Image1: TImage;
@@ -21,8 +21,13 @@ type
     Label4: TLabel;
     edtsenha: TEdit;
     Layout5: TLayout;
+    Label5: TLabel;
     RoundRect1: TRoundRect;
-    btncadastrar: TSpeedButton;
+    btnentrar: TSpeedButton;
+    Layout6: TLayout;
+    Label6: TLabel;
+    lblcadaluno: TLabel;
+    procedure lblcadalunoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,10 +35,17 @@ type
   end;
 
 var
-  FrmCadAluno: TFrmCadAluno;
+  frmlogin: Tfrmlogin;
 
 implementation
 
 {$R *.fmx}
+
+uses TelaCadAluno;
+
+procedure Tfrmlogin.lblcadalunoClick(Sender: TObject);
+begin
+  FrmCadAluno.Show;
+end;
 
 end.
