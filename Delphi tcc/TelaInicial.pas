@@ -17,6 +17,30 @@ type
     Layout3: TLayout;
     Rectangle1: TRectangle;
     Rectangle2: TRectangle;
+    Label4: TLabel;
+    Rectangle3: TRectangle;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Layout4: TLayout;
+    Layout5: TLayout;
+    Layout6: TLayout;
+    Label9: TLabel;
+    Label10: TLabel;
+    BtnProxTreino: TButton;
+    Button1: TButton;
+    Label3: TLabel;
+    Label5: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    Label20: TLabel;
     procedure Label1Click(Sender: TObject);
   private
     { Private declarations }
@@ -31,7 +55,7 @@ implementation
 
 {$R *.fmx}
 
-uses TelaCadAluno;
+uses TelaCadAluno, TelaLogin;
 
 procedure TFrmInicial.Label1Click(Sender: TObject);
 begin

@@ -1816,11 +1816,11 @@ object frmlogin: Tfrmlogin
         Text = 'N'#227'o tem conta?'
         TabOrder = 0
       end
-      object SpeedButton1: TSpeedButton
-        Position.X = 80.000000000000000000
+      object Button1: TButton
+        Position.X = 96.000000000000000000
         Position.Y = 8.000000000000000000
-        Text = 'SpeedButton1'
-        OnClick = SpeedButton1Click
+        TabOrder = 1
+        Text = 'Button1'
       end
     end
   end

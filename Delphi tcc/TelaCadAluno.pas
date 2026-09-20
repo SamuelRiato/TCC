@@ -42,5 +42,7 @@ implementation
 
 {$R *.fmx}
 
+uses TelaInicial, TelaLogin;
+
 
 end.

@@ -2,16 +2,16 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2026/09/18 22:49:52.000.943,=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/09/18 22:57:29.000.362,D:\Delphi tcc\TelaInicial.pas=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/09/18 22:57:29.000.362,D:\Delphi tcc\TelaInicial.fmx=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2026/09/18 22:57:29.000.362,C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx=D:\Delphi tcc\TelaInicial.fmx</Transaction>
+    <Transaction>2026/09/18 22:57:29.000.362,C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Delphi tcc\TelaInicial.pas</Transaction>
     <Transaction>2026/09/18 23:22:11.000.540,=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2026/09/18 23:25:28.000.547,=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2026/09/18 23:25:49.000.523,=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2026/09/18 23:29:41.000.518,D:\Delphi tcc\TelaCadAluno.pas=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/09/18 23:29:41.000.518,D:\Delphi tcc\TelaCadAluno.fmx=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2026/09/19 00:00:54.000.380,D:\Delphi tcc\Project1.dproj=C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/09/18 23:29:41.000.518,C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx=D:\Delphi tcc\TelaCadAluno.fmx</Transaction>
+    <Transaction>2026/09/18 23:29:41.000.518,C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Delphi tcc\TelaCadAluno.pas</Transaction>
+    <Transaction>2026/09/19 00:00:54.000.380,C:\Users\riato\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Delphi tcc\Project1.dproj</Transaction>
     <Transaction>2026/09/19 16:40:48.000.978,=D:\Delphi tcc\Unit1.pas</Transaction>
-    <Transaction>2026/09/19 17:13:01.000.839,D:\Delphi tcc\Unit1.fmx=D:\Delphi tcc\TelaLogin.fmx</Transaction>
-    <Transaction>2026/09/19 17:13:01.000.839,D:\Delphi tcc\Unit1.pas=D:\Delphi tcc\TelaLogin.pas</Transaction>
+    <Transaction>2026/09/19 17:13:01.000.839,D:\Delphi tcc\TelaLogin.pas=D:\Delphi tcc\Unit1.pas</Transaction>
+    <Transaction>2026/09/19 17:13:01.000.839,D:\Delphi tcc\TelaLogin.fmx=D:\Delphi tcc\Unit1.fmx</Transaction>
   </Transactions>
 </BorlandProject>
