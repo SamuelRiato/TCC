@@ -1,0 +1,45 @@
+unit TelaCadAluno;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.Edit, FMX.Layouts, FMX.Objects, FMX.StdCtrls;
+
+type
+  TFrmCadAluno = class(TForm)
+    Layout1: TLayout;
+    Layout2: TLayout;
+    Image1: TImage;
+    Layout3: TLayout;
+    Label1: TLabel;
+    Label2: TLabel;
+    Layout4: TLayout;
+    Label3: TLabel;
+    edtemail: TEdit;
+    Label4: TLabel;
+    edtsenha: TEdit;
+    Layout5: TLayout;
+    RoundRect1: TRoundRect;
+    btncadastrar: TSpeedButton;
+    Label5: TLabel;
+    Edit1: TEdit;
+    edttelefone: TEdit;
+    Label6: TLabel;
+    edtnomealuno: TEdit;
+    Label7: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCadAluno: TFrmCadAluno;
+
+implementation
+
+{$R *.fmx}
+
+end.
